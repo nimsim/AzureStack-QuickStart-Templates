@@ -9,7 +9,7 @@ function DownloadISO {
 
 	# Local file storage location
     $localPath = "$env:SystemDrive"
-    $uri = 
+    $uri = https://download.microsoft.com/download/1/F/7/1F777B44-32CB-4F3D-B486-3D0F566D79A9/ExchangeServer2016-x64-cu8.iso
 
     # Log file
     $logFileName = "CSDownload.log"
