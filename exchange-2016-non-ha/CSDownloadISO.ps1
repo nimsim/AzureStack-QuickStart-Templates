@@ -9,6 +9,7 @@ function DownloadISO {
 
 	# Local file storage location
     $localPath = "$env:SystemDrive"
+    $uri = 
 
     # Log file
     $logFileName = "CSDownload.log"
