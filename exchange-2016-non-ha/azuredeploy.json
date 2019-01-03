@@ -32,7 +32,7 @@
         "vmOsDiskName": "[concat('od', resourceGroup().name)]",
         "vmDataDiskName": "[concat('dd', resourceGroup().name)]",
         "vmSize": "Standard_DS3_v2",
-        "vmDataDiskSize": "15",
+        "vmDataDiskSize": "25",
         "vmNicName": "[tolower(concat('nc', resourceGroup().name))]",
         "virtualNetworkName": "[tolower(concat('vn', resourceGroup().name))]",
         "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
